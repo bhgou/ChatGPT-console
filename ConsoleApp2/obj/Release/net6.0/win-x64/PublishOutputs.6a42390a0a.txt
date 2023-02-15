@@ -1,0 +1,2 @@
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\win-x64\publish\ConsoleApp2.pdb
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\win-x64\publish\ConsoleApp2.exe

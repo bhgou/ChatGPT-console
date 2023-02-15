@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qec7QZTNOv4pE8SInt8RJ8GILg5dGM+XB+yBCidZBdHMurDfj5M510746tTy7KrLLLSuhHiOGendEHEWyptTzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brati\\OneDrive\\Документы\\GitHub\\ChatGPT-console\\ConsoleApp2\\ConsoleApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brati\\.nuget\\packages\\newtonsoft.json\\13.0.3-beta1\\newtonsoft.json.13.0.3-beta1.nupkg.sha512",
+    "C:\\Users\\brati\\.nuget\\packages\\openai-dotnet\\4.4.3\\openai-dotnet.4.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,7 @@
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\ConsoleApp2.exe
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\ConsoleApp2.dll
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\ConsoleApp2.deps.json
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\ConsoleApp2.runtimeconfig.json
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\ConsoleApp2.pdb
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\brati\RiderProjects\ConsoleApp2\ConsoleApp2\bin\Release\net6.0\publish\OpenAI-DotNet.dll
