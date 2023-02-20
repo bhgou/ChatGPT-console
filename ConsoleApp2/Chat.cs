@@ -21,11 +21,11 @@ class ChatGPT
     async static Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
     {
         var message = update.Message;
-        string response = GenerateResponse(json.Get().API, message.Text);
+        string response = await GenerateResponse(json.Get().API, message.Text);
         await botClient.SendTextMessageAsync(message.Chat.Id,response);
     }
 
-    private static string GenerateResponse(string apiKey, string prompt)
+    static async Task<string>  GenerateResponse(string apiKey, string prompt)
     {
         using (var client = new HttpClient())
         {
