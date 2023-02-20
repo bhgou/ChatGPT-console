@@ -23,6 +23,22 @@
         "runtime": {
           "lib/net6.0/OpenAI-DotNet.dll": {}
         }
+      },
+      "Telegram.Bot/19.0.0-preview.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
       }
     }
   },
@@ -69,12 +85,31 @@
         "openai-dotnet.4.4.3.nupkg.sha512",
         "openai-dotnet.nuspec"
       ]
+    },
+    "Telegram.Bot/19.0.0-preview.2": {
+      "sha512": "gLNkJuhoBg4Erw+AypV7IChhMrM6pawL5s8yAtI/89euPv8y9fwewLzWlx8KEKzz3Tb/zfyRWidAcSw6kXANCw==",
+      "type": "package",
+      "path": "telegram.bot/19.0.0-preview.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Telegram.Bot.dll",
+        "lib/net6.0/Telegram.Bot.pdb",
+        "lib/net6.0/Telegram.Bot.xml",
+        "lib/netstandard2.0/Telegram.Bot.dll",
+        "lib/netstandard2.0/Telegram.Bot.pdb",
+        "lib/netstandard2.0/Telegram.Bot.xml",
+        "package-icon.png",
+        "telegram.bot.19.0.0-preview.2.nupkg.sha512",
+        "telegram.bot.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Newtonsoft.Json >= 13.0.3-beta1",
-      "OpenAI-DotNet >= 4.4.3"
+      "OpenAI-DotNet >= 4.4.3",
+      "Telegram.Bot >= 19.0.0-preview.2"
     ]
   },
   "packageFolders": {
@@ -123,6 +158,10 @@
           "OpenAI-DotNet": {
             "target": "Package",
             "version": "[4.4.3, )"
+          },
+          "Telegram.Bot": {
+            "target": "Package",
+            "version": "[19.0.0-preview.2, )"
           }
         },
         "imports": [

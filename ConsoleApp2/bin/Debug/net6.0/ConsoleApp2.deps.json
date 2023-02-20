@@ -9,7 +9,8 @@
       "ConsoleApp2/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3-beta1",
-          "OpenAI-DotNet": "4.4.3"
+          "OpenAI-DotNet": "4.4.3",
+          "Telegram.Bot": "19.0.0-preview.2"
         },
         "runtime": {
           "ConsoleApp2.dll": {}
@@ -28,6 +29,17 @@
           "lib/net6.0/OpenAI-DotNet.dll": {
             "assemblyVersion": "4.4.3.0",
             "fileVersion": "4.4.3.0"
+          }
+        }
+      },
+      "Telegram.Bot/19.0.0-preview.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3-beta1"
+        },
+        "runtime": {
+          "lib/net6.0/Telegram.Bot.dll": {
+            "assemblyVersion": "19.0.0.0",
+            "fileVersion": "19.0.0.0"
           }
         }
       }
@@ -52,6 +64,13 @@
       "sha512": "sha512-8SiLu35zMXfmqnr24BqYKdB1yVP+QB4io4ujyKZBmHO0NLlTxwW9iWcfa5LjK3dhyEP2Lj/jQdyoCT0TNFrENA==",
       "path": "openai-dotnet/4.4.3",
       "hashPath": "openai-dotnet.4.4.3.nupkg.sha512"
+    },
+    "Telegram.Bot/19.0.0-preview.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gLNkJuhoBg4Erw+AypV7IChhMrM6pawL5s8yAtI/89euPv8y9fwewLzWlx8KEKzz3Tb/zfyRWidAcSw6kXANCw==",
+      "path": "telegram.bot/19.0.0-preview.2",
+      "hashPath": "telegram.bot.19.0.0-preview.2.nupkg.sha512"
     }
   }
 }

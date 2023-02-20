@@ -1,0 +1,8 @@
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\ConsoleApp2.exe
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\ConsoleApp2.dll
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\ConsoleApp2.deps.json
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\ConsoleApp2.runtimeconfig.json
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\ConsoleApp2.pdb
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\Newtonsoft.Json.dll
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\OpenAI-DotNet.dll
+C:\Users\brati\OneDrive\Документы\GitHub\ChatGPT-console\publish\Telegram.Bot.dll

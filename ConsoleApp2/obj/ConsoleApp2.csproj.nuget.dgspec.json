@@ -47,6 +47,10 @@
             "OpenAI-DotNet": {
               "target": "Package",
               "version": "[4.4.3, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[19.0.0-preview.2, )"
             }
           },
           "imports": [

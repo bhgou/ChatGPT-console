@@ -1,28 +1,31 @@
 ﻿using System.Text;
 using ConsoleApp2;
 using Newtonsoft.Json;
+using Telegram.Bot;
+using Telegram.Bot.Types;
 
 class ChatGPT
 {
+    static Json json = new();
     public void Start()
     {
-        Json json = new();
-
-        while (true)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("User:");
-
-            string promt = Console.ReadLine();
-            string response ="ChatGPT" + GenerateResponse(json.Get().API, promt);
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(response);
-            Console.ForegroundColor = ConsoleColor.Green;
-        }
-       
+        var botClient = new TelegramBotClient(json.Get().APITelegram);
+        botClient.StartReceiving(Update,Error);
     }
 
-    private string GenerateResponse(string apiKey, string prompt)
+    private Task Error(ITelegramBotClient arg1, Exception arg2, CancellationToken arg3)
+    {
+        throw new NotImplementedException();
+    }
+
+    async static Task Update(ITelegramBotClient botClient, Update update, CancellationToken token)
+    {
+        var message = update.Message;
+        string response = GenerateResponse(json.Get().API, message.Text);
+        await botClient.SendTextMessageAsync(message.Chat.Id,response);
+    }
+
+    private static string GenerateResponse(string apiKey, string prompt)
     {
         using (var client = new HttpClient())
         {
@@ -36,6 +39,7 @@ class ChatGPT
             return responseText;
         }
     }
+    
 
 }
 
